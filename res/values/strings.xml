@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ApkDrvTool</string>
+    <string name="btn_refresh">refresh</string>
+    <string name="btn_write">write</string>
+    <string name="btn_gpspwr_0">gpspwr 0</string>
+    <string name="btn_gpspwr_1">gpspwr 1</string>
+    <string name="btn_avinen_0">avinen 0</string>
+    <string name="btn_avinen_1">avinen 1</string>
+    <string name="btn_avinsw_0">avinsw 0</string>
+    <string name="btn_avinsw_1">avinsw 1</string>
+    <string name="btn_tmcpwr_0">tmcpwr 0</string>
+    <string name="btn_tmcpwr_1">tmcpwr 1</string>
+    <string name="btn_otgsw_0">otgsw 0</string>
+    <string name="btn_otgsw_1">otgsw 1</string>
+</resources>

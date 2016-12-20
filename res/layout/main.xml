@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <EditText
+                android:id="@+id/edt_write"
+                android:layout_width="200dp"
+                android:layout_height="58dp"
+                android:textSize="25dp" />
+            <Button
+                android:id="@+id/btn_write"
+                android:layout_width="150dp"
+                android:layout_height="58dp"
+                android:text="@string/btn_write"
+                android:textSize="25dp"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <Button
+                android:id="@+id/btn_gpspwr_0"
+                android:layout_width="150dp"
+                android:layout_height="58dp"
+                android:text="@string/btn_gpspwr_0"
+                android:textSize="25dp"
+                android:gravity="center" />
+
+            <Button
+                android:id="@+id/btn_gpspwr_1"
+                android:layout_width="150dp"
+                android:layout_height="58dp"
+                android:text="@string/btn_gpspwr_1"
+                android:textSize="25dp"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <Button
+                android:id="@+id/btn_avinen_0"
+                android:layout_width="150dp"
+                android:layout_height="58dp"
+                android:text="@string/btn_avinen_0"
+                android:textSize="25dp"
+                android:gravity="center" />
+
+            <Button
+                android:id="@+id/btn_avinen_1"
+                android:layout_width="150dp"
+                android:layout_height="58dp"
+                android:text="@string/btn_avinen_1"
+                android:textSize="25dp"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <Button
+                android:id="@+id/btn_avinsw_0"
+                android:layout_width="150dp"
+                android:layout_height="58dp"
+                android:text="@string/btn_avinsw_0"
+                android:textSize="25dp"
+                android:gravity="center" />
+
+            <Button
+                android:id="@+id/btn_avinsw_1"
+                android:layout_width="150dp"
+                android:layout_height="58dp"
+                android:text="@string/btn_avinsw_1"
+                android:textSize="25dp"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <Button
+                android:id="@+id/btn_tmcpwr_0"
+                android:layout_width="150dp"
+                android:layout_height="58dp"
+                android:text="@string/btn_tmcpwr_0"
+                android:textSize="25dp"
+                android:gravity="center" />
+
+            <Button
+                android:id="@+id/btn_tmcpwr_1"
+                android:layout_width="150dp"
+                android:layout_height="58dp"
+                android:text="@string/btn_tmcpwr_1"
+                android:textSize="25dp"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <Button
+                android:id="@+id/btn_otgsw_0"
+                android:layout_width="150dp"
+                android:layout_height="58dp"
+                android:text="@string/btn_otgsw_0"
+                android:textSize="25dp"
+                android:gravity="center" />
+
+            <Button
+                android:id="@+id/btn_otgsw_1"
+                android:layout_width="150dp"
+                android:layout_height="58dp"
+                android:text="@string/btn_otgsw_1"
+                android:textSize="25dp"
+                android:gravity="center" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:orientation="vertical" >
+        <Button
+            android:id="@+id/btn_refresh"
+            android:layout_width="200dp"
+            android:layout_height="58dp"
+            android:text="@string/btn_refresh"
+            android:textSize="25dp"
+            android:gravity="center" />
+        <EditText
+            android:id="@+id/txt_apkdrv_data"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:editable="false" />
+    </LinearLayout>
+</LinearLayout>
