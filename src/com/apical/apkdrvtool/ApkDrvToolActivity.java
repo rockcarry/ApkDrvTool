@@ -41,8 +41,8 @@ public class ApkDrvToolActivity extends Activity {
         mBtnGpsPwr1 = (Button)findViewById(R.id.btn_gpspwr_1);
         mBtnAvinEn0 = (Button)findViewById(R.id.btn_avinen_0);
         mBtnAvinEn1 = (Button)findViewById(R.id.btn_avinen_1);
-        mBtnAvinSw0 = (Button)findViewById(R.id.btn_avinen_0);
-        mBtnAvinSw1 = (Button)findViewById(R.id.btn_avinen_1);
+        mBtnAvinSw0 = (Button)findViewById(R.id.btn_avinsw_0);
+        mBtnAvinSw1 = (Button)findViewById(R.id.btn_avinsw_1);
         mBtnTmcPwr0 = (Button)findViewById(R.id.btn_tmcpwr_0);
         mBtnTmcPwr1 = (Button)findViewById(R.id.btn_tmcpwr_1);
         mBtnOtgSw0  = (Button)findViewById(R.id.btn_otgsw_0 );
